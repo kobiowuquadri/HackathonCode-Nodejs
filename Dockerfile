@@ -36,3 +36,7 @@ HEALTHCHECK --interval=30s --timeout=3s \
 
 # Start the application
 CMD ["node", "server.js"]
+
+# Then all further actions including running the containers should be done under non-root user.
+USER $USER
+EXPOSE 4000

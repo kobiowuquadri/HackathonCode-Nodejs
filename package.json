@@ -5,12 +5,19 @@
   "description": "A tool to learn OWASP Top 10 for node.js developers",
   "main": "server.js",
   "dependencies": {
+
     "bcrypt-nodejs": "^0.0.3",
     "body-parser": "^1.20.3",
+
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.1",
+    "connect-mongo": "^5.1.0",
+
     "consolidate": "^0.14.1",
     "csurf": "^1.2.2",
     "dompurify": "^3.2.5",
     "dont-sniff-mimetype": "^1.0.0",
+
     "dotenv": "^16.5.0",
     "ejs": "^3.1.10",
     "express": "^4.21.2",
@@ -21,6 +28,13 @@
     "helmet": "^8.1.0",
     "jsdom": "^26.1.0",
     "marked": "^15.0.8",
+
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "forever": "^2.0.0",
+    "helmet": "^2.0.0",
+    "marked": "0.3.5",
+
     "mongodb": "^6.15.0",
     "needle": "2.2.4",
     "node-esapi": "0.0.1",
@@ -61,6 +75,7 @@
     "grunt-if": "https://github.com/binarymist/grunt-if/tarball/master",
     "grunt-jsbeautifier": "^0.2.12",
     "grunt-mocha-test": "^0.12.7",
+    "grunt-nodemon": "^0.4.2",
     "grunt-npm-install": "^0.3.0",
     "grunt-retire": "^0.1.0",
     "jshint": "2.12.0",
